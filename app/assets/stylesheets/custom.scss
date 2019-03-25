@@ -1,0 +1,101 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-top: 109px;
+  text-align: center;
+  color: white!important;
+}
+
+h2 {
+  font-size: 2.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  margin-top: 51px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+  color: white!important;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+background-color: black;
+  margin-top: 290px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+  color: #777;
+  height: 50px;
+  padding: 0px
+}
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+.bg-image{
+	background-image: url('bg.jpg');
+  margin-top: -10px;
+  height: 95vh;
+}
+
+.jumbotron {
+  background: none;
+}
